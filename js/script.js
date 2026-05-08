@@ -1,9 +1,11 @@
+
 let dates = document.getElementById('date');
 
 setInterval(() => {
-   let date = new Date()
-   dates.innerHTML=date.toLocaleString('en')
+    let date = new Date()
+    dates.innerHTML=date.toLocaleString('en')
 }, 1000);
+
 
 
 let name = document.getElementById('nameInpute');
